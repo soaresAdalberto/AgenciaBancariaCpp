@@ -6,12 +6,25 @@
 
 ### Contexto:
 
-	Para a criação desse projeto foi realizado um levantamento de requisitos sobre o que uma conta bancária precisa ter. E é a partir desse ponto que se cria um software orientado a objetos, abstraindo informações do mundo real e trazendo-as ao código. 
-	Levando em consideração esse fato, criei uma agência bancária simples que possui três tipos de contas: corrente, poupança e investimentos. Utilizando os recursos de herança simples e múltipla, codifiquei uma classe mãe, onde estarão encapuslados todos os atributos e regras de negócios comuns entre as contas e outra classe mãe que terá os dados em comum para os tipos de investimentos da ContaInvestimento. 
-	Minhas contas poupança tem uma novidade: quando chegar o mês de aniversário da conta (por exemplo, uma conta criada em JAN/2021 irá fazer aniversário em JAN/2022) ela irá ganhar um incremento monetário, como gratificação. Utilizei um Enum para categorizar os meus meses do ano.
-	Na minha nova classe mãe, citada anteriormente, (TipoInvestimento) criei um Enum para os tipos de investimentos que a ContaInvestimento pode ter. 
-	Posteriormente, irei segregar novas classes que terão como parâmetro os atributos de sua mãe e as suas regras de negócio específicas, denominadas como classes filhas. 
-	Tendo esses conceitos em mente, o meu programa funcionará da seguinte maneira: o usuário poderá cadastrar três tipos de conta: poupança, corrente e investimentos. Na conta poupança, no seu mês aniversário, ele ganha uma gratificação. Na corrente, ele tem um limite para saques além do seu saldo (cheque especial) e na investimentos ele pode escolher qual a forma de investir seu dinheiro, além de poder visualizar em todas as contas seu extrato e fazer depósitos/ saques. 
+	Para a criação desse projeto foi realizado um levantamento de requisitos sobre o que uma conta
+bancária precisa ter. E é a partir desse ponto que se cria um software orientado a objetos, abstraindo
+informações do mundo real e trazendo-as ao código. 
+	Levando em consideração esse fato, criei uma agência bancária simples que possui três tipos de
+contas: corrente, poupança e investimentos. Utilizando os recursos de herança simples e múltipla, 
+codifiquei uma classe mãe, onde estarão encapuslados todos os atributos e regras de negócios comuns 
+entre as contas e outra classe mãe que terá os dados em comum para os tipos de investimentos da ContaInvestimento. 
+	Minhas contas poupança tem uma novidade: quando chegar o mês de aniversário da conta (por exemplo,
+uma conta criada em JAN/2021 irá fazer aniversário em JAN/2022) ela irá ganhar um incremento monetário, 
+como gratificação. Utilizei um Enum para categorizar os meus meses do ano.
+	Na minha nova classe mãe, citada anteriormente, (TipoInvestimento) criei um Enum para os tipos de
+investimentos que a ContaInvestimento pode ter. 
+	Posteriormente, irei segregar novas classes que terão como parâmetro os atributos de sua mãe e as 
+suas regras de negócio específicas, denominadas como classes filhas. 
+	Tendo esses conceitos em mente, o meu programa funcionará da seguinte maneira: o usuário poderá 
+cadastrar três tipos de conta: poupança, corrente e investimentos. Na conta poupança, no seu mês aniversário, 
+ele ganha uma gratificação. Na corrente, ele tem um limite para saques além do seu saldo (cheque especial) 
+e na investimentos ele pode escolher qual a forma de investir seu dinheiro, além de poder visualizar em todas 
+as contas seu extrato e fazer depósitos/ saques. 
 
 --------------------------------------------------------
 
