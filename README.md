@@ -2,8 +2,6 @@
 
 ## Projeto desenvolvido como requisito para a matéria Programação Orientada a Objetos na linguagem C++.
 
---------------------------------------------------------
-
 ### Contexto:
 		
 Para a criação desse projeto foi realizado um levantamento de requisitos sobre o que uma conta
