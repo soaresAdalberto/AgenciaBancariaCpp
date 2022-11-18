@@ -11,7 +11,7 @@ bancária precisa ter. E é a partir desse ponto que se cria um software orienta
 informações do mundo real e trazendo-as ao código. 
 Levando em consideração esse fato, criei uma agência bancária simples que possui três tipos de
 contas: corrente, poupança e investimentos. Utilizando os recursos de herança simples e múltipla, 
-codifiquei uma classe mãe, onde estarão encapuslados todos os atributos e regras de negócios comuns 
+codifiquei uma classe mãe, onde estarão encapsulados todos os atributos e regras de negócios comuns 
 entre as contas e outra classe mãe que terá os dados em comum para os tipos de investimentos da ContaInvestimento. 
 Minhas contas poupança tem uma novidade: quando chegar o mês de aniversário da conta (por exemplo,
 uma conta criada em JAN/2021 irá fazer aniversário em JAN/2022) ela irá ganhar um incremento monetário, 
