@@ -43,14 +43,8 @@ as contas seu extrato e fazer depósitos/ saques.
 É uma conta neta, no qual absorve os atributos da sua mãe (Classe TipoInvestimento), que recebe da
 sua avó (Classe ContaCorrente) e cria os seus próprios atributos. 
 
-Conceitos utilizados:
--Abstração;
--Instanciação;
--Encapsulamento;
--Criação de Enum;
--Herança simples;
--Herança múltipla;
--Polimorfismo.
+Conceitos utilizados: 
+Abstração; Instanciação; Encapsulamento; Criação de Enum; Herança simples; Herança múltipla; Polimorfismo.
 
 --------------------------------------------------------
 
